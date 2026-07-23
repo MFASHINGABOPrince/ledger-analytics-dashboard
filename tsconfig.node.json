@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./node_modules/.tmp/tsconfig.node",
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["vite.config.ts"]
+}
