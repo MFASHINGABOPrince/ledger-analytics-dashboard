@@ -10,7 +10,11 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "forceConsistentCasingInFileNames": true,
-    "strict": true
+    "strict": true,
+
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["vite.config.ts"]
 }
